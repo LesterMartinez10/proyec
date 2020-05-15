@@ -4,13 +4,13 @@
        
 
 
-         $nombre=$_POST['nombre'];
-         $password=$_POST['pass'];
+         $nombre=$_POST['Nombre'];
+         $password=$_POST['Password'];
 
          $resultado=$validar->validaruser($nombre,$password);
  
 
-
+    
          if ($resultado->num_rows== 1) 
          {
            header("location:ventas.php");

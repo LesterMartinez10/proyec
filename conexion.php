@@ -1,4 +1,4 @@
-<?php
+   <?php
     class conexion extends mysqli
     {
        public function __construct()
