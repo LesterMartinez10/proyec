@@ -3,7 +3,7 @@
     <head>
         <title>Ventas</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    </head>     
+    </head>       
         <br />
         <div align="center">
             <h1 class="card-title"><span class="badge badge-secondary">VENTAS </span></h1>
@@ -58,7 +58,7 @@
             <?php                   
             }
         ?>
-
+        <body background="Fondo1.JPG">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="clo-10 ">
@@ -77,11 +77,11 @@
                                     <img src="img/nintendoswich.jpg"width="250" height="200"/>
                                 </td>
                                 <td>
-                                    <p>
-                                      Switch es diferente a todas las consolas que hemos visto hasta el momento.<br/>
-                                      El ultimo juguete de Nintendo es una maquina que tanto puede utilizarse conectada a la television y a una toma de corriente,<br/>
-                                      como de forma portatil gracias a una pantalla y bateria propias.<br/>
-                                      De hecho, casi podria decirse que en lugar de una consola se trata de una tableta pensada exclusivamente para jugar.<br/>                                 
+                                    <p class="text-justify">
+                                      Switch es diferente a todas las consolas que hemos visto hasta el momento.</br>
+                                      El ultimo juguete de Nintendo es una maquina que tanto puede utilizarse conectada a la television y a una toma de corriente,
+                                      como de forma portatil gracias a una pantalla y bateria propias.
+                                      De hecho, casi podria decirse que en lugar de una consola se trata de una tableta pensada exclusivamente para jugar.                               
                                     </p>
                                 </td>
                                 <td>
@@ -96,10 +96,10 @@
                                     <img src="img/nintendoswichlite.jpg"width="250" height="200"/>
                                 </td>
                                 <td>
-                                    <p>
-                                       Nintendo Switch Lite es la nueva incorporacion a la familia Nintendo Switch:<br/>
-                                       se trata de una consola compacta y ligera que se puede llevar a cualquier sitio con facilidad. <br/>
-                                       Con Nintendo Switch Lite se puede jugar a todos los programas de Nintendo Switch que son compatibles con el modo portatil<br/>
+                                    <p class="text-justify">
+                                       Nintendo Switch Lite es la nueva incorporacion a la familia Nintendo Switch:
+                                       se trata de una consola compacta y ligera que se puede llevar a cualquier sitio con facilidad.</br> 
+                                       Con Nintendo Switch Lite se puede jugar a todos los programas de Nintendo Switch que son compatibles con el modo portatil
                                     </p>
                                 </td>
                                 <td>
@@ -114,10 +114,10 @@
                                     <img src="img/xbox.jpg"width="250" height="200" />
                                 </td>
                                 <td>
-                                    <p>
-                                        Ya sea que estes disfrutando de tus juegos, mirando tus series favoritas o haciendo streaming de tu juego,<br/> 
-                                        Xbox One S ofrece impresionantes graficos con tecnologia HDR,<br/>
-                                        audio de primera calidad y capacidad de juego rapido y confiable con tus amigos.<br/>
+                                    <p class="text-justify">
+                                        Ya sea que estes disfrutando de tus juegos, mirando tus series favoritas o haciendo streaming de tu juego.</br>
+                                        Xbox One S ofrece impresionantes graficos con tecnologia HDR,
+                                        audio de primera calidad y capacidad de juego rapido y confiable con tus amigos.
                                     </p>
                                 </td>
                                 <td>
@@ -132,7 +132,7 @@
                                     <img src="img/xboxx.jpg"width="250" height="200" />
                                 </td>
                                 <td>
-                                    <p>
+                                    <p class="text-justify">
                                         Todos los juegos se ven y juegan bien en Xbox One X.<br/> 
                                         Pero los titulos seleccionados estan optimizados para aprovechar la consola mas potente del mundo.<br/>
                                         Estos juegos son para Xbox One X Enhanced.<br/>
@@ -150,7 +150,7 @@
                                     <img src="img/play.jpg"width="250" height="200" />
                                 </td>
                                 <td>
-                                    <p>
+                                    <p class="text-justify">
                                         Presentamos la consola PlayStation 4.<br/>
                                         Ahora con una construccion mas liviano y mas delgado que nunca<br/>
                                         Disco duro de 1 TB<br/>
@@ -169,5 +169,5 @@
                 </div>
             </div>
         </div>          
-    </body>
+   </body>
 </html>
