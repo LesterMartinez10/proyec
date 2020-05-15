@@ -11,12 +11,6 @@
                      $usuario=$us->query($q);
                      $us->close();
                      return $usuario;
-				}
-        
+				}       
 		  }
-
-
-
-
-
 ?>
