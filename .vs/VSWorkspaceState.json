@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DataBase",
+    "\\img"
   ],
-  "SelectedNode": "\\ventas.php",
+  "SelectedNode": "\\DataBase\\sistema.sql",
   "PreviewInSolutionExplorer": false
 }
