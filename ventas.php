@@ -9,7 +9,7 @@
             <h1 class="card-title"><span class="badge badge-secondary">VENTAS </span></h1>
         </div>
         <div align="right">
-            <a  class="btn btn-secondary btn-lg" href="index.html">Salir cuando no ha comprado nada</a>
+            <a  class="btn btn-secondary btn-lg" href="index.html">Salir si no a comprado nada</a>
              <button type="button" class="btn btn-light">
 		     <a href="final.php">Finalizar compra</a>
         </div>
@@ -26,7 +26,7 @@
                 $consulta=$con->query($query);
                 $con->close();
              ?>
-                <table align="center" border=1>
+                <table align="center" class="table table-dark" >
                     <tr>
                         <td>
                             <p>Producto</p>
@@ -41,7 +41,7 @@
                         $query="SELECT * FROM `carrito` WHERE 1;";
                         $pro=$con->query($query);
                         $con->close();
-                        
+                         $total=0;
                         while($row=mysqli_fetch_assoc($pro))
                         {
                             echo "
@@ -54,14 +54,11 @@
                                     </td>
                                 </tr>
                             ";
-                             $total=($total+$row['precio']);
-						    ?>
-							  <div class="dropdown-divider"></div>								 
-							<?php
+                            $total=($total+$row['precio']);
+						  
                         }
                         ?>
-							   <p>TOTAL=<?php echo $total; ?> </p>
-							   <div class="dropdown-divider"></div>
+							   <p>Total de la compra=<?php echo $total; ?> </p>			  
 					    <?php
                     ?>
                 </table>
