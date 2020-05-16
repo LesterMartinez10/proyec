@@ -8,6 +8,8 @@
         <div align="center">
             <h1 class="card-title"><span class="badge badge-secondary">VENTAS </span></h1>
         </div>
+          <div align="left">
+       <h6><font color="#BFC9CA">Martinez & Basilio Co.</font></h6>
         <div align="right">
             <a  class="btn btn-secondary btn-lg" href="index.html">Salir si no a comprado nada</a>
              <button type="button" class="btn btn-light">
@@ -26,7 +28,7 @@
                 $consulta=$con->query($query);
                 $con->close();
              ?>
-                <table align="center" class="table table-dark" >
+                <table align="center" class="table table-dark " >
                     <tr>
                         <td>
                             <p>Producto</p>
@@ -58,7 +60,7 @@
 						  
                         }
                         ?>
-							   <p>Total de la compra=<?php echo $total; ?> </p>			  
+							   <p class="h3"><font color="#F4D03F">Total de la compra=<?php echo $total; ?></font></p>			  
 					    <?php
                     ?>
                 </table>
@@ -176,5 +178,6 @@
                 </div>
             </div>
         </div>          
+       </div>
    </body>
 </html>
