@@ -10,10 +10,11 @@
         </div>
           <div align="left">
        <h6><font color="#BFC9CA">Martinez & Basilio Co.</font></h6>
-        <div align="right">
-            <a  class="btn btn-secondary btn-lg" href="index.html">Salir si no a comprado nada</a>
+        <div align="right">          
              <button type="button" class="btn btn-light">
-		     <a href="final.php">Finalizar compra</a>
+		     <a href="final.php">Finalizar compra</a>         
+              <button type="button" class="btn btn-light">   
+		     <a href="final.php">salir</a>    
         </div>
         <br />        
         <?php
