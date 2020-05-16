@@ -9,9 +9,9 @@
             <h1 class="card-title"><span class="badge badge-secondary">VENTAS </span></h1>
         </div>
         <div align="right">
-            <a  class="btn btn-secondary btn-lg" href="index.html">Salir</a>
+            <a  class="btn btn-secondary btn-lg" href="index.html">Salir cuando no ha comprado nada</a>
              <button type="button" class="btn btn-light">
-		     <a href="final.php">FINALIZAR COMPRA</a>
+		     <a href="final.php">Finalizar compra</a>
         </div>
         <br />        
         <?php
@@ -54,7 +54,15 @@
                                     </td>
                                 </tr>
                             ";
+                             $total=($total+$row['precio']);
+						    ?>
+							  <div class="dropdown-divider"></div>								 
+							<?php
                         }
+                        ?>
+							   <p>TOTAL=<?php echo $total; ?> </p>
+							   <div class="dropdown-divider"></div>
+					    <?php
                     ?>
                 </table>
             <?php                   
