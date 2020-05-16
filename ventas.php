@@ -10,6 +10,8 @@
         </div>
         <div align="right">
             <a  class="btn btn-secondary btn-lg" href="index.html">Salir</a>
+             <button type="button" class="btn btn-light">
+		     <a href="final.php">FINALIZAR COMPRA</a>
         </div>
         <br />        
         <?php
