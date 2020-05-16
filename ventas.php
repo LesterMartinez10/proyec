@@ -9,7 +9,7 @@
             <h1 class="card-title"><span class="badge badge-secondary">VENTAS </span></h1>
         </div>
         <div align="right">
-            <a href="index.html">Salir</a>
+            <a  class="btn btn-secondary btn-lg" href="index.html">Salir</a>
         </div>
         <br />        
         <?php
@@ -58,7 +58,7 @@
             <?php                   
             }
         ?>
-        <body background="Fondo1.JPG">
+        <body background="Fondo3.JPG">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="clo-10 ">
